@@ -4,5 +4,9 @@
     <string name="app_name">微信demo</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="selected_weixin">您选中的是微信</string>
+    <string name="selected_friend">您选中的是朋友</string>
+    <string name="selected_address">您选中的是地址</string>
+    <string name="selected_setting">您选中的是设置</string>
 
 </resources>

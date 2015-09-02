@@ -120,7 +120,7 @@ public class MainActivity extends FragmentActivity
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Toast.makeText(MainActivity.this, "您选中的是微信", Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this, R.string.selected_weixin, Toast.LENGTH_SHORT).show();
 				mViewPager.setCurrentItem(0);
 //				FragmentManager fm = getSupportFragmentManager();
 //				FragmentTransaction transaction = fm.beginTransaction();
@@ -144,7 +144,7 @@ public class MainActivity extends FragmentActivity
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Toast.makeText(MainActivity.this, "您选中的是朋友", Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this, R.string.selected_friend, Toast.LENGTH_SHORT).show();
 				mViewPager.setCurrentItem(1);
 			}
 		});
@@ -153,7 +153,7 @@ public class MainActivity extends FragmentActivity
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Toast.makeText(MainActivity.this, "您选中的是地址", Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this, R.string.selected_address, Toast.LENGTH_SHORT).show();
 				mViewPager.setCurrentItem(2);
 			}
 		});
@@ -162,7 +162,7 @@ public class MainActivity extends FragmentActivity
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				Toast.makeText(MainActivity.this, "您选中的是设置", Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this, R.string.selected_setting, Toast.LENGTH_SHORT).show();
 				mViewPager.setCurrentItem(3);
 			}
 		});

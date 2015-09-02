@@ -9,6 +9,7 @@
     <string name="action_settings">Settings</string>
     <string name="app_name">微信demo</string>
     <string name="hello_world">Hello world!</string>
+    <string name="selected_weixin">您选中的是微信</string>
     <!-- From: file:/D:/AndroidStudioProjects/MainFramework03/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
